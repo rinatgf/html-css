@@ -1,0 +1,12 @@
+:root {
+    --dark-blue: #534080;
+}
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
