@@ -1,12 +1,50 @@
 :root {
-    --dark-blue: #534080;
+    --dark-blue: #b7b0c8;
 }
 
-.header {
-    background-color: var(--dark-blue);
+body {
+font-family: Lato;
+font-style: normal;
+font-weight: 700;
 }
 
 .container {
     width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto;    
+}
+
+.header {
+    background-color: var(--dark-blue);        
+}
+
+.header__wrapper{
+    min-height: 75px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__botton {
+    border: none;
+    background-color: transparent;
+}
+
+.header__link {
+    margin: 0 0 0 34px;
+}
+
+.promo {
+    display: flex;
+}
+
+.promo__heading-wrapper {
+    
 }
